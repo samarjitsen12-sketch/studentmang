@@ -25,7 +25,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
             // Use the variables here
             echo "Name: $name <br>";
             echo "Roll No: $roll_no <br><br>";
-            echo "Student record saved successfully!";
             header("Refresh: 10; URL=index.html");
             exit();
         }

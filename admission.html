@@ -15,12 +15,24 @@
             <a href="fees.html">Fees</a>
             <a href="results.html">Results</a>
         </h2>
-        <h3>
+        <h3 class="new_admission">
            <form action="admission.php" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name"><br><br>
-                <label for="roll">Roll Number:</label>
-                <input type="number" id="roll" name="roll"><br><br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age"><br><br>
+                <label for="dob" id="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br><br>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+                <label for="address">Address:</label>   
+                <input type="text" id="address" name="address"><br><br>
+                <label for="class">Class:</label>
+                <input type="text" id="class" name="class"><br><br>
                 <input type="submit" value="Submit">
             </form>
         </h3>
